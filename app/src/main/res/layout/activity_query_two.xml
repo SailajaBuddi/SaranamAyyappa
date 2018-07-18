@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/query"
+        android:layout_width="@dimen/query_text_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:maxLines="2"
+        android:text="@string/q2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sixteen_sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@+id/query"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <GridLayout
+            android:id="@+id/grid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/ten_dp"
+            android:background="@drawable/rectangular_imgborder"
+            android:backgroundTint="@color/contentPackImageBorder"
+            android:columnCount="2"
+            android:padding="@dimen/eight_dp"
+            android:rowCount="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five_dp"
+                android:padding="@dimen/two_dp"
+                android:src="@drawable/flowerdec_ayyappa" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/query_img_width"
+                android:layout_height="@dimen/query_img_width">
+
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="@dimen/query_img_width"
+                    android:layout_height="@dimen/query_img_width"
+                    android:background="@color/query_img_background">
+
+                    <FrameLayout
+                        android:id="@+id/frame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|bottom"
+                            android:gravity="center"
+                            android:padding="@dimen/five_dp"
+                            android:text="Drag right celebrity image here"
+                            android:textColor="@color/query_text_color"
+                            android:textSize="@dimen/eighteen_sp" />
+
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="@dimen/two_dp"
+                            app:srcCompat="@drawable/gallery" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/target" />
+
+            </RelativeLayout>
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/grid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/twelve_dp"
+            android:columnCount="3">
+
+            <ImageView
+                android:id="@+id/drag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/three_dp"
+                android:background="@color/contentPackImageBorder"
+                android:padding="2dp"
+                android:src="@drawable/flowers_pic" />
+
+            <ImageView
+                android:id="@+id/drag2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/three_dp"
+                android:background="@color/contentPackImageBorder"
+                android:padding="@dimen/two_dp"
+                android:src="@drawable/temple_ayyapa" />
+
+            <ImageView
+                android:id="@+id/drag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/three_dp"
+                android:background="@color/contentPackImageBorder"
+                android:padding="@dimen/two_dp"
+                android:src="@drawable/temple_pic" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

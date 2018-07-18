@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ededed"
+    tools:context=".activity.CreateEvent">
+
+    <include layout="@layout/toolbar1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <LinearLayout
+                android:id="@+id/linearimg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_BackGrnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/photo_camera" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/style_circular_fill"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puja Details"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="@dimen/three_dp"
+                android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="12dp">
+                <EditText
+                    android:id="@+id/tv_PujaName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint=" Puja Name"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    android:textColor="#000000"
+                     />
+
+              <!--  <TextView
+                    android:id="@+id/tv_count"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="30"
+
+                    android:textSize="16dp" />-->
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_dateStartEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_fromDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#fc7a51"
+                            android:textSize="16sp"
+                            android:hint="Start Date" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_timeStartEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1">
+
+
+                        <TextView
+                            android:id="@+id/tv_fromTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#fc7a51"
+                            android:textSize="16dp"
+                            android:hint="Start Time" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_enddateEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_toDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#fc7a51"
+                            android:textSize="16sp"
+                            android:hint="End Date" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_endtimeEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_toTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="sans-serif"
+                            android:textColor="#fc7a51"
+                            android:textSize="16sp"
+                            android:hint="End Time"
+                            />
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/ll_EndDateEvent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_StartTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_StartTime"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Start Time"
+                            android:textColor="#fc7a51"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_EndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_EndTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="End Time"
+                            android:textColor="#fc7a51"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1" />
+            <LinearLayout
+                android:id="@+id/linearAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_Addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:hint="Location"
+                    android:textColor="#383838"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_Add"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/dropdown" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Invite Members"
+                    android:textColor="@color/grey_darker"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <TextView
+                    android:id="@+id/tv_Invite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ Invite"
+                    android:textColor="@color/cfcTextOrangeColor"
+                    android:textSize="@dimen/sixteen_sp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt_selected_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp">
+                <EditText
+                    android:id="@+id/tv_limit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#fc7a51"
+                    android:textSize="16sp"
+                    android:hint=" Limit (Optional)"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="30"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RSVP"
+                        android:textColor="#383838"
+                        android:textSize="16sp" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/switchcompat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/SwitchCompatStyle" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/rsvp_layout"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/ll_rsvpDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_rsvpDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif"
+                                android:textColor="#fc7a51"
+                                android:textSize="16dp"
+                                android:hint="Closing Date"
+                                />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_rsvpTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/tv_rsvpTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="sans-serif"
+                                android:hint="Closing Time"
+                                android:textColor="#fc7a51"
+                                android:textSize="16dp"
+                                />
+                        </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btn_createEvent"
+                android:layout_width="74dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/fifteen_dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="center"
+                android:src="@drawable/send"
+                android:tint="@color/black"
+                app:backgroundTint="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

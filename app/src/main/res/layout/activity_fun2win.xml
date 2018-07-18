@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fun_card1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/eight_dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/f_text1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="Lorem Ipsum is simply dummy text "
+                                android:textColor="#000000"
+                                android:textSize="@dimen/sixteen_sp" />
+
+                            <TextView
+                                android:id="@+id/f_text2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="Lorem Ipsum is simply"
+                                android:textSize="@dimen/twelve_sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_remove_red_eye_black_24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/five_dp"
+                            android:text="345"
+                            android:textSize="@dimen/fourteen_sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/funImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/img" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/five_dp">
+
+                        <ImageView
+                            android:id="@+id/coin_img"
+                            android:layout_width="@dimen/fifteen_dp"
+                            android:layout_height="@dimen/fifteen_dp"
+                            android:src="@drawable/rsz_fancoin" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/coin_img"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Earn"
+                                android:textSize="@dimen/twelve_sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="100"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/twelve_sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="junky Coins"
+                                android:textSize="@dimen/twelve_sp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/take_challenge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/rectangularborder"
+                            android:padding="@dimen/five_dp"
+                            android:text="TAKE A CHALLENGE"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/twelve_sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_margin="@dimen/five_dp"
+                            android:id="@+id/linear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/fav_img"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    app:srcCompat="@drawable/ic_like" />
+
+                                <ImageView
+                                    android:id="@+id/fav_img1"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    app:srcCompat="@drawable/ic_favorite_black_24dp"
+                                    android:visibility="invisible"/>
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/comment_img"
+                                android:layout_width="@dimen/twenty_dp"
+                                android:layout_height="@dimen/twenty_dp"
+                                android:layout_marginLeft="@dimen/twenty_dp"
+                                android:layout_toRightOf="@+id/fav_img"
+                                app:srcCompat="@drawable/ic_comment_black_24dp" />
+
+                            <ImageView
+                                android:id="@+id/share_img"
+                                android:layout_width="@dimen/twenty_dp"
+                                android:layout_height="@dimen/twenty_dp"
+                                android:layout_marginLeft="@dimen/twenty_dp"
+                                android:layout_toRightOf="@+id/comment_img"
+                                app:srcCompat="@drawable/ic_share_black_24dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/five_dp"
+                            android:padding="@dimen/five_dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/likes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0 Likes"
+                                android:textSize="@dimen/ten_sp" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="@dimen/eight_dp"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_marginTop="2dp"
+                                android:background="#b4b4b4" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10 Comments"
+                                android:textSize="@dimen/ten_sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

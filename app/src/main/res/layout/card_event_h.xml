@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_cv"
+            android:layout_marginLeft="@dimen/five_dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120sp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/event_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp">
+
+                    <TextView
+                        android:id="@+id/tv_PujaName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Ayyapa Swamy Maha Padi Puja"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="2dp"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="2sp">
+
+                        <TextView
+                            android:id="@+id/tv_Addres"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:text="AyyapaSwamyTemple,SrinagarColongy,Panjagutta"
+                            android:textSize="@dimen/fourteen_sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="3dp">
+
+                        <TextView
+                            android:id="@+id/tv_Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="21-11-2017"
+                            android:textSize="@dimen/fourteen_sp"
+                            android:layout_marginRight="@dimen/five_dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_PujaStartTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6.00PM"
+                            android:layout_marginRight="@dimen/ten_dp"
+                            android:textSize="@dimen/fourteen_sp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" to "
+                            android:textSize="@dimen/twelve_dp"/>
+                        <TextView
+                            android:id="@+id/tv_toDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="21-11-2017"
+                            android:textSize="@dimen/fourteen_sp"
+                            android:layout_marginLeft="@dimen/five_dp"
+                            android:layout_marginRight="@dimen/ten_dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_PujaEndTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.30PM"
+                            android:textSize="@dimen/fourteen_sp"/>
+
+
+
+                    </LinearLayout>
+
+                   <!-- <LinearLayout
+                        android:id="@+id/joinnow_linear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/iv_Join"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/clapping"/>
+
+                        <TextView
+                            android:id="@+id/tv_Join"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Join to Puja"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2dp"
+                            android:textColor="@color/cfcTextOrangeColor"
+                            android:textSize="14sp"/>
+                        <TextView
+                            android:id="@+id/tv_UnJoin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Join to Puja"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="2dp"
+                            android:textColor="@color/cfcTextOrangeColor"
+                            android:textSize="14sp"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.01dp"
+                        android:background="#9e9e9e"
+                        android:layout_marginTop="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="7dp">
+
+                        <TextView
+                            android:id="@+id/tv_ViewDetails"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="View Details"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/tv_AddCal"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add to Calendar"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/cfcTextOrangeColor"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+-->
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>

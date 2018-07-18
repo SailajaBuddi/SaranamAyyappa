@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ededed"
+    tools:context=".activity.CreateEvent">
+
+    <include layout="@layout/toolbar1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <LinearLayout
+                android:id="@+id/linearimg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_BackGrnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/photo_camera" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/style_circular_fill"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Details"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="@dimen/three_dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f5f5f5"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            android:paddingLeft="3dp"
+                            android:gravity="center_vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="12dp">
+                            <EditText
+                                android:id="@+id/tv_Name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:fontFamily="sans-serif"
+                                android:hint=" Store Name"
+                                android:inputType="textCapWords"
+                                android:maxLines="1"
+                                android:maxLength="30"
+                                android:textColor="#000000"
+                                />
+
+                           <!-- <TextView
+                                android:id="@+id/tv_count"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="end"
+                                android:text="30"
+                                android:textSize="16dp" />-->
+                        </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e1e1e1"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:paddingLeft="3dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="12dp">
+                        <EditText
+                            android:id="@+id/tv_ownerName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="sans-serif"
+                            android:hint=" Owner Name"
+                            android:inputType="textCapWords"
+                            android:maxLines="1"
+                            android:maxLength="30"
+                            android:textColor="#000000"
+                            />
+
+                        <!-- <TextView
+                             android:id="@+id/tv_count"
+                             android:layout_width="100dp"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:gravity="end"
+                             android:text="30"
+                             android:textSize="16dp" />-->
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e1e1e1"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/tv_contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="sans-serif"
+                            android:hint=" Phone Number"
+                            android:inputType="phone"
+                            android:maxLines="1"
+                            android:maxLength="30"
+                            android:textColor="#000000"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e1e1e1" />
+
+                    <LinearLayout
+                        android:id="@+id/linearAdd"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_Addr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:hint="Location"
+                            android:textColor="#383838"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_Add"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/dropdown" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e1e1e1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/tv_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="sans-serif"
+                            android:hint=" Email (optional)"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:maxLength="30"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e1e1e1"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/tv_website"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="sans-serif"
+                            android:hint=" Website (optional)"
+                            android:inputType="textWebEditText"
+                            android:maxLines="1"
+                            android:maxLength="30"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#e1e1e1"
+
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/tv_fblink"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:fontFamily="sans-serif"
+                            android:hint=" Facebook page link (optional)"
+                            android:inputType="textWebEditText"
+                            android:maxLines="1"
+                            android:maxLength="30"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btn_createEvent"
+                android:layout_marginBottom="@dimen/fifteen_dp"
+                android:layout_width="74dp"
+                android:layout_height="66dp"
+                android:src="@drawable/send"
+                android:layout_gravity="center"
+                app:backgroundTint="@color/white"
+                android:scaleType="center"
+                android:layout_marginTop="5dp"
+                android:tint="@color/black"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

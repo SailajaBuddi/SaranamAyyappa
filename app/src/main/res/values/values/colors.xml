@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#512457</color>
+
+    <color name="colorPrimaryDark">#3f1a47</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cfcTextColor">#383838</color>
+
+    <color name="cfcTextLightColor">#929292</color>
+
+    <color name="cfcTextOrangeColor">#fc7a51</color>
+
+    <color name="cfcBorderColor">#e1e1e1</color>
+
+    <color name="cfcToolbarTextLightColor">#66ffffff</color>
+
+    <color name="editTextBorderColor">#FFFFFF</color>
+
+    <color name="storkecolor">#0173B1</color>
+
+    <color name="lightstorkecolor">#a9a9a9</color>
+
+    <color name="trasnperantColor">#99000000</color>
+
+    <color name="textColorHint">#a9a9a9</color>
+
+    <color name="divedercolor">#eaeaea</color>
+
+    <color name="appPrimaryTextColor">#FFFFFF</color>
+
+    <color name="appPrimaryButtonFillColor">#FFFFFF</color>
+
+    <color name="appPrimaryButtontextColor">#512457</color>
+
+    <color name="appsecondryButtonFillColor">#512457</color>
+
+    <color name="appsecondryButtontextColor">#FFFFFF</color>
+
+    <color name="appsecondryTextColor">#3e3e3e</color>
+
+    <color name="appthirdTextColor">#a1a1a1</color>
+
+    <color name="appfourthTextColor">#000</color>
+
+    <color name="fanclubtitlecolor">#fff7c0</color>
+
+    <color name="coinpageyellow">#ffd400</color>
+
+    <color name="coinpagblye">#a9e6fe</color>
+
+    <color name="coinpagelitewhite">#af83b5</color>
+
+    <color name="coinpagedivder">#33ffffff</color>
+
+    <color name="coinpagedivder2">#e1e1e1</color>
+
+    <color name="fanclubjoincolor">#639c4f</color>
+
+    <color name="fanclubinfo">#43ace3</color>
+
+    <color name="fanclubinfored">#d91e15</color>
+
+    <color name="addmembercolor">#3e3e3e</color>
+
+    <color name="bottom_navigation_backgrnd">#151520</color>
+
+    <color name="fanmagcolor">#d75174</color>
+
+    <color name="contentviewcolor">#4e90d7</color>
+
+    <color name="contentcreatecolor">#b9cc23</color>
+
+    <color name="fanclubcolor">#f5b327</color>
+
+    <color name="faneventscolor">#9a58b8</color>
+
+    <color name="violet_trans">#509a58b8</color>
+
+    <color name="catbac1">#e26a6b</color>
+
+    <color name="catbac2">#26c7db</color>
+
+    <color name="catbac3">#62cca6</color>
+
+    <color name="catbac4">#9c59b8</color>
+
+    <color name="gradient1startcolor">#660000ff</color>
+
+    <color name="gradient1endcolor">#66a900cd</color>
+
+    <color name="gradient2startcolor">#1a01e3</color>
+
+    <color name="gradient2endcolor">#ea0114</color>
+
+    <color name="gradient3startcolor">#006d8d</color>
+
+    <color name="gradient3endcolor">#517a00</color>
+
+    <color name="selectedbuttonstrokecolor">#eb683e</color>
+
+    <color name="terms_conditions_color">#FFFFFF</color>
+
+    <color name="devider_color">#b4b4b4</color>
+
+    <color name="resultcolor1">#72a941</color>
+
+    <color name="resultcolor2">#db4537</color>
+
+    <color name="coupon_color">#62cca6</color>
+
+    <color name="black">#000000</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="bottom_naigation_unselected_color">#af9bb2</color>
+
+    <!--sign in page colors-->
+
+<color name="loginbutton">#B82D20</color>
+    <color name="bright_pink">#FF007F</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="orange">#FF7F00</color>
+
+    <color name="yellow">#FFFF00</color>
+
+    <color name="chartreuse">#7FFF00</color>
+
+    <color name="green">#00FF00</color>
+
+    <color name="spring_green">#00FF7F</color>
+
+    <color name="cyan">#00FFFF</color>
+
+    <color name="azure">#007FFF</color>
+
+    <color name="lightblue">#A8CFF4</color>
+
+    <color name="blue">#0000FF</color>
+
+    <color name="violet">#7F00FF</color>
+
+    <color name="magenta">#FF00FF</color>
+
+    <color name="one">#1abc9c</color>
+
+    <color name="two">#3498db</color>
+
+    <color name="three">#9b59b6</color>
+
+    <color name="five">#e67e22</color>
+
+    <color name="four">#e74c3c</color>
+
+    <color name="answeredcolor">#c9c9c9</color>
+
+    <color name="unansweredcolor">#50969b</color>
+
+    <color name="fc_black">#010101</color>
+
+    <color name="grey_darker">#595959</color>
+
+    <color name="pink">#ff4081</color>
+
+    <color name="dart_violate">#502457</color>
+
+    <color name="american_green">#16A086</color>
+
+    <color name="text3">#24537d</color>
+
+    <color name="text4">#3dc5c3</color>
+
+
+    -<array name="categorycolors">
+
+    <item>@color/one</item>
+
+    <item>@color/two</item>
+
+    <item>@color/three</item>
+
+    <item>@color/four</item>
+
+    <item>@color/five</item>
+
+    <item>@color/one</item>
+
+    <item>@color/two</item>
+
+    <item>@color/three</item>
+
+    <item>@color/four</item>
+
+    <item>@color/five</item>
+
+    <item>@color/one</item>
+
+    <item>@color/two</item>
+
+    <item>@color/three</item>
+
+    <item>@color/four</item>
+
+    <item>@color/five</item>
+
+    <item>@color/chartreuse</item>
+
+    <item>@color/green</item>
+
+    <item>@color/spring_green</item>
+
+    <item>@color/cyan</item>
+
+    <item>@color/azure</item>
+
+    <item>@color/blue</item>
+
+    <item>@color/violet</item>
+
+    <item>@color/magenta</item>
+
+    <item>@color/one</item>
+
+    <item>@color/two</item>
+
+    <item>@color/three</item>
+
+    <item>@color/four</item>
+
+    <item>@color/chartreuse</item>
+
+    <item>@color/green</item>
+
+    <item>@color/spring_green</item>
+
+    <item>@color/cyan</item>
+
+    <item>@color/azure</item>
+
+    <item>@color/blue</item>
+
+    <item>@color/violet</item>
+
+    <item>@color/magenta</item>
+
+    <item>@color/one</item>
+
+    <item>@color/two</item>
+
+    <item>@color/three</item>
+
+    <item>@color/four</item>
+
+    <item>@color/chartreuse</item>
+
+    <item>@color/green</item>
+
+    <item>@color/spring_green</item>
+
+    <item>@color/cyan</item>
+
+    <item>@color/azure</item>
+
+    <item>@color/blue</item>
+
+    <item>@color/violet</item>
+
+    <item>@color/magenta</item>
+
+</array>
+
+
+    -<array name="chartcolors">
+
+    <item>@color/four</item>
+
+    <item>@color/unansweredcolor</item>
+
+    <item>@color/text3</item>
+
+    <item>@color/text4</item>
+
+</array>
+
+
+    -<array name="topchartcolors">
+
+    <item>@color/answeredcolor</item>
+
+    <item>@color/unansweredcolor</item>
+
+</array>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="bel_lightgrey_text">#72747A</color>
+
+    <color name="light_grey">#929292</color>
+
+    <color name="grey_light">#b8b8b8</color>
+
+    <color name="red_dim">#fc7a51</color>
+
+    <color name="light_grey_text_input">#f7f7f7</color>
+
+</resources>

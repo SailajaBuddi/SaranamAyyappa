@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <item
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:title="Home"/>-->
+
+    <item
+     android:id="@+id/nearby"
+     android:icon="@drawable/location"
+     android:enabled="true"
+     android:title="Nearby" />
+
+    <item
+        android:id="@+id/feeds"
+         android:icon="@drawable/group"
+        android:enabled="true"
+        android:title="Feeds"/>
+
+    <item
+        android:id="@+id/Home"
+        android:enabled="true"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/fun2win"
+        android:icon="@drawable/cal"
+        android:enabled="true"
+        android:title="Fun2Win"/>
+    <item
+        android:id="@+id/material"
+        android:icon="@drawable/material"
+        android:enabled="true"
+        android:title="Materials"/>
+
+
+</menu>

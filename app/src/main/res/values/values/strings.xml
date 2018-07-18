@@ -1,0 +1,325 @@
+<resources>
+    <string name="app_name">SaranamAyyappa</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+
+    <string-array name="mem_names">
+        <item>Rajesh</item>
+        <item>Sai yeswanth</item>
+        <item>srinivas</item>
+        <item>linga</item>
+        <item>hari krishna</item>
+        <item>Rafi</item>
+        <item>sai kumar</item>
+        <item>Vijay</item>
+
+    </string-array>
+    <string-array name="arr">
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+    </string-array>
+    <integer-array name="im">
+        <item>@drawable/img</item>
+        <item>@drawable/ayapa3</item>
+        <item>@drawable/calendarr</item>
+        <item>@drawable/google</item>
+        <item>@drawable/img</item>
+        <item>@drawable/ayapa</item>
+        <item>@drawable/img</item>
+        <item>@drawable/ayapa3</item>
+        <item>@drawable/calendarr</item>
+        <item>@drawable/google</item>
+        <item>@drawable/img</item>
+        <item>@drawable/ayapa</item>
+
+    </integer-array>
+
+
+    <string-array name="pujanames">
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+    </string-array>
+    <string-array name="group_name">
+        <item>Narayana Kanth </item>
+        <item>Manikanta </item>
+        <item>Arun Guru swamy</item>
+        <item>Narayana Kanth </item>
+    </string-array>
+    <string-array name="time_ago">
+        <item>10 mins ago</item>
+        <item>5 mins ago</item>
+        <item>6 mins ago</item>
+        <item>8 mins ago</item>
+        <item>10 mins ago</item>
+        <item>5 mins ago</item>
+        <item>6 mins ago</item>
+        <item>8 mins ago</item>
+    </string-array>
+    <string-array name="view_address">
+        <item>Patel Nagar,Srinivas Colony,Bapatla</item>
+        <item>Old Busstand,HariHara Colony,Ponnur</item>
+        <item>New Busstand,Benz Colony,Vijayawada</item>
+        <item>ClockTower Street,Kothapet,Chirala</item>
+    </string-array>
+
+    <string-array name="streetnames">
+        <item>Patel Nagar,KPHB Colony,Hyderabad</item>
+        <item>Old Busstand,Vishwabrhamana Colony,Vizag</item>
+        <item>New Busstand,Ranganayakulu Colony,Vijayawada</item>
+        <item>ClockTower Street,Gandhi Colony,Guntur</item>
+    </string-array>
+
+    <string-array name="join">
+        <item>join to puja</item>
+        <item>you +20 people joined</item>
+        <item>join to puja</item>
+        <item>join to puja</item>
+    </string-array>
+
+    <string-array name="details">
+        <item>View Details</item>
+        <item>View Details</item>
+        <item>View Details</item>
+        <item>View Details</item>
+    </string-array>
+
+    <string-array name="calender">
+        <item>Add to Calender</item>
+        <item>Add to Calender</item>
+        <item>Add to Calender</item>
+        <item>Add to Calender</item>
+    </string-array>
+
+    <string-array name="starttime">
+        <item>8:00PMto10:00 PM</item>
+        <item>7:30PMto9:30 PM</item>
+        <item>6:00PMto8:30 PM</item>
+        <item>6:30PMto9:30 PM</item>
+    </string-array>
+
+    <string-array name="stoptime">
+        <item>22-11-2017</item>
+        <item>23-11-2017</item>
+        <item>25-11-2017</item>
+        <item>28-11-2017</item>
+    </string-array>
+
+    <string-array name="side_name">
+        <item>Guru Swamy</item>
+        <item>Bajanamandali</item>
+        <item>General </item>
+        <item>Catering</item>
+        <item>Decaration</item>
+        <item>Pujari</item>
+        <item>Flower Supplyers</item>
+        <item>Irumudi Supplyers</item>
+        <item>GuruSwamy </item>
+        <item>GuruSwamy </item>
+        <item>PujaStore</item>
+        <item>GuruSwamy </item>
+    </string-array>
+
+    <string-array name="swami_name">
+        <item>Narayana Kanth \n Guru Swamy</item>
+        <item>Pancha Girisha Bajana Mandali </item>
+        <item>Maikanta </item>
+        <item>Hari Hara Putra Caterers</item>
+        <item>Shabari Girisha \n Padi Decoraters</item>
+        <item>Arun Guru swamy</item>
+        <item>ManiKanta Flower \n  Supplyers</item>
+        <item>Pancha Girisha \n Bajana Mandali </item>
+        <item>Krishna Ayer \n Guru Swamy</item>
+        <item>Mahesh Guru \n Swamy</item>
+        <item>Ayappa Swamy Cateres</item>
+        <item>Satyanarayana \n Guru Swamy</item>
+    </string-array>
+
+    <string-array name="joined_name">
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+        <item>22 members joined</item>
+    </string-array>
+
+    <string-array name="join_name">
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+        <item>Join Now</item>
+    </string-array>
+
+    <string-array name="cal_date">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="cal_week">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THUR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THUR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THUR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THUR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+        <item>MON</item>
+    </string-array>
+
+
+    <string-array name="cal_swami_name">
+        <item>Narayana Kanth \n Guru Swamy</item>
+        <item>Pancha Girisha Bajana Mandali </item>
+        <item>Maikanta </item>
+        <item>Hari Hara Putra Caterers</item>
+    </string-array>
+
+    <string-array name="cal_pujanames">
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+
+    </string-array>
+
+    <string-array name="cal_starttime">
+        <item>8:00 PM to 10:00 PM</item>
+        <item>7:30PM to 9:30 PM</item>
+        <item>6:00 PM to 8:30 PM</item>
+        <item>6:30 PM to 9:30 PM</item>
+    </string-array>
+
+    <string-array name="cal_cnyname">
+        <item>SaiYeswanth Colony,</item>
+        <item>Navya Colony,</item>
+        <item>Divya Colony,</item>
+        <item>Sriveni Colony,</item>
+
+    </string-array>
+
+    <string-array name="cal_stoptime">
+        <item>22-11-2017</item>
+        <item>23-11-2017</item>
+        <item>25-11-2017</item>
+        <item>28-11-2017</item>
+    </string-array>
+    <string name="app_google_api">AIzaSyDQMtDFxrnVjXVLB6ZfeXwfPIeoNSQAMAk</string>
+    <!--  <string name="app_google_api">AIzaSyAjhw0uYAq6JVGO_EotOCIjIz9953ccMTo</string>-->
+    <string name="title_activity_navigation">SaranamAyyappa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="material_sastry">
+        <item>Narayana Kanth </item>
+        <item>Pancha Girisha  </item>
+        <item>Maikanta </item>
+        <item>Hari Hara </item>
+    </string-array>
+
+    <string-array name="material_pujaname">
+        <item>Ayyappa Swami</item>
+        <item>Ayyapa Swami </item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa </item>
+    </string-array>
+
+    <string-array name="group_category">
+        <item>GuruSwamy</item>
+        <item>BajanaMandali</item>
+        <item>Catering</item>
+        <item>Decoration</item>
+        <item>Pujari </item>
+        <item>Flower Suppliers </item>
+        <item>Irumudi Suppliers </item>
+        <item>Pooja Stores </item>
+        <item>General </item>
+    </string-array>
+
+    <string name="AIzaSyDQMtDFxrnVjXVLB6ZfeXwfPIeoNSQAMAk"></string><!--google-->
+    <string name="FACEBOOK_APP_ID">181447829114495</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">2807a26581f212e72af933b9388e7ad5</string>
+    <!--<string name="facebook_app_id">181447829114495</string>-->
+    <string name="fb_login_protocol_scheme">fb181447829114495</string>
+    <string name="event_expired">Event date expired.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="lorem">fsrwufgrherynnnnnnnnnnnnnnnnnnnnnnnnbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbrd</string>
+
+    <!--<string name="FACEBOOK_APP_ID">1449679141795535</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">cf3dea4557c517afa53eac782c23251f</string>-->
+</resources>

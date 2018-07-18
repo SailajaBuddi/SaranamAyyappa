@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thirty_dp">30dp</dimen>
+
+    <dimen name="twenty_five_dp">25dp</dimen>
+
+    <dimen name="twenty_dp">20dp</dimen>
+
+    <dimen name="sixteen_dp">16dp</dimen>
+
+    <dimen name="twelve_dp">12dp</dimen>
+
+    <dimen name="ten_dp">10dp</dimen>
+
+    <dimen name="fifteen_dp">15dp</dimen>
+
+    <dimen name="eight_dp">8dp</dimen>
+
+    <dimen name="five_dp">5dp</dimen>
+
+    <dimen name="seventeen">17dp</dimen>
+
+    <dimen name="editext_border_padding">6dp</dimen>
+
+    <dimen name="button_height">48dp</dimen>
+
+    <dimen name="keyboard_height">230dp</dimen>
+
+    <dimen name="bottom_sheet_font_size">14sp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+
+    <dimen name="dots_margin_bottom">10dp</dimen>
+
+    <dimen name="img_width_height">120dp</dimen>
+
+    <dimen name="slide_title">30dp</dimen>
+
+    <dimen name="slide_desc">16dp</dimen>
+
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="margin_top">58dp</dimen>
+
+    <dimen name="header_view_start_margin_left">16dp</dimen>
+
+    <dimen name="header_view_end_margin_left">40dp</dimen>
+
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+
+    <dimen name="header_view_start_margin_bottom">52dp</dimen>
+
+    <dimen name="event_image_height">230dp</dimen>
+
+    <!--Text Sizes-->
+
+
+    <dimen name="twenty_five_sp">25sp</dimen>
+
+    <dimen name="twenty_sp">20sp</dimen>
+
+    <dimen name="eighteen_sp">18sp</dimen>
+
+    <dimen name="sixteen_sp">16sp</dimen>
+
+    <dimen name="fourteen_sp">14sp</dimen>
+
+    <dimen name="twelve_sp">12sp</dimen>
+
+    <dimen name="ten_sp">10sp</dimen>
+
+    <dimen name="eight_sp">8sp</dimen>
+
+
+    <dimen name="btn_post_width">50dp</dimen>
+
+    <dimen name="txt_user_name_size">10sp</dimen>
+
+    <dimen name="txt_date_size">8sp</dimen>
+
+    <dimen name="txt_create_user_name_size">15sp</dimen>
+
+    <dimen name="txt_comment_size">12sp</dimen>
+
+
+
+    <dimen name="view_gap_margin">10dp</dimen>
+
+    <dimen name="avatar_radius_small">18dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+</resources>

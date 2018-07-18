@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lay"
+    android:background="#dedede"
+    tools:context=".activity.EventDetails">
+
+    <include layout="@layout/toolbar1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar11"
+        android:isScrollContainer="false"
+        android:layout_marginTop="@dimen/fifteen_dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/card1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <FrameLayout
+            android:id="@+id/frame_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ccaba5a8">
+
+            <ImageView
+                android:id="@+id/iv_puja"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="#6a691205"/>
+
+           <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/adminName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:text="Anvesh"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="29dp"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    android:background="@drawable/name_back"
+                    android:layout_alignParentRight="true" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_adminpic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/profilecircle"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/god"
+                    android:layout_alignParentRight="true" />
+
+
+                <LinearLayout
+                    android:id="@+id/ll_dateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_startdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30 JUNE"
+                       android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - "
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_endDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 JULY"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/tv_StartTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="5:55 PM"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" - "
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/tv_EndTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4:10 PM"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_dateTime"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:tint="@color/white"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/location" />
+
+                    <TextView
+                        android:id="@+id/tv_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ISM, Cheelu Road, Patel Nagar, Bapatla "
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card1"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/fifteen_dp"
+        android:layout_marginRight="@dimen/fifteen_dp"
+        android:layout_marginBottom="@dimen/fifteen_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_PujaName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayyappa Puja"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#e1e1e1" />
+
+            <TextView
+                android:id="@+id/event_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Description" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#e1e1e1" />
+
+            <TextView
+                android:id="@+id/event_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:textColor="@color/black"
+                android:text="Bapatla" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="#e1e1e1" />
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_rsvp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/twelve_dp"
+                    android:textColor="@color/black"
+                    android:text="RSVP :- " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv_rsvpDate"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text=" - " />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_rsvpTime"
+                    android:textColor="@color/black"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e1e1e1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/response_layout"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:textColor="@color/black"
+                android:text="Responses" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/smile3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                             android:text="0"
+                            android:textSize="25dp"
+                            android:id="@+id/accepted_count"
+                            android:layout_marginLeft="@dimen/five_dp"
+                           />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/sad2"
+                            android:layout_marginLeft="25dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="0"
+                            android:textSize="25dp"
+                            android:id="@+id/rejected_count"
+                            android:layout_marginLeft="@dimen/five_dp"
+                            />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/think"
+                            android:layout_marginLeft="25dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="0"
+                            android:textSize="25dp"
+                            android:id="@+id/notsure_count"
+                            android:layout_marginLeft="@dimen/five_dp"
+                            />
+                        <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/warn"
+                            android:layout_marginLeft="25dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="0"
+                            android:textSize="25dp"
+                            android:id="@+id/notresponded_count"
+                            android:layout_marginLeft="@dimen/five_dp"
+                            />
+            </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_response"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="@dimen/fifteen_dp"
+                android:layout_gravity="center"
+                android:text="Respond"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

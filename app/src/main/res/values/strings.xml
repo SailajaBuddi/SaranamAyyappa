@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">SaranamAyyappa</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+
+    <string name="app_google_api">AIzaSyBg-sKmwqnNUoyeV2-coFxlRa6Pm_1ih60</string>
+    <!--<string name="app_google_api">AIzaSyDQMtDFxrnVjXVLB6ZfeXwfPIeoNSQAMAk</string>-->
+    <!--  <string name="app_google_api">AIzaSyAjhw0uYAq6JVGO_EotOCIjIz9953ccMTo</string>-->
+    <string name="title_activity_navigation">SaranamAyyappa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="AIzaSyDQMtDFxrnVjXVLB6ZfeXwfPIeoNSQAMAk" />
+    <!--google-->
+    <string name="FACEBOOK_APP_ID">181447829114495</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">2807a26581f212e72af933b9388e7ad5</string>
+    <!--<string name="facebook_app_id">181447829114495</string>-->
+    <string name="fb_login_protocol_scheme">fb181447829114495</string>
+    <string name="event_expired">Event date expired.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="lorem">fsrwufgrherynnnnnnnnnnnnnnnnnnnnnnnnbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbrd</string>
+
+    <!--<string name="FACEBOOK_APP_ID">1449679141795535</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">cf3dea4557c517afa53eac782c23251f</string>-->
+
+
+    <string name="AyyappaBirthStory">
+    Lord Ayyappa is a very popular Hindu deity, which is mainly worshipped in South India. He is also spelt as Ayyappa. It is believed that he was born out of the union between Lord Shiva and the mythical Mohini, who is also regarded as an avatar of Lord Vishnu. Therefore, Ayyappa is also called as ‘ Hariharan Puthiran’ which means the son of both Hari or Vishnu and ‘ Haran’ or Shiva.
+    
+    LORD AYYAPPA ALSO CALLED AS MANIKANDAN
+    Maniknanadan is the another name of Ayyappa because, according to the legend of his birth, his parents tied a golden bell also called as mani around his neck ( kandan ) soon after his birth. As legendary, when Shiva and Mohini abandoned the child on the banks of the Pampa River, the ruler of that dynasty, King Rajashekhara, the childless monarch belonging to Pandalam, adopted Ayyappa and accepted him as the divine gift.
+    
+    THE DEIFICATION OF LORD AYYAPPA
+    The king understood the queens bad nature against his son and begged Manikantan’s forgiveness. Then Manikntan left for the heavenly abode after telling the king to build a large temple at Sabari, so that the memories remain forever on the earth. The temple was constructed and Lord Parshuram sculpted the figure of Lord Ayyappa and installed it on the eve of Makar Sankranti. Thus in this way, Lord Ayyappa was defined.
+    
+    King Rajasekara built the shrine and the sacred eighteen stairs leading to the temple complex was made. As he was in a dilemma for perplexing the task of placing Dharamasastha’s idol in the temple for darshan, he was reminded the words of Lord himself. The River Pampa known as Ganga, Sabarimala as holy as Kasi – Dharmasastha sent Parshuram, who made the land of Kerala holy from the bottom of the ocean to the Sabarimala and it was he who carved the figure of Lord Ayyappa.
+    
+    THE WORSHIP OF LORD AYYAPPA
+    Strict religious adherence was practised by Lord Ayyappa to receive his blessings by the devotees. First of all, the devotees observe a 41-day penance before visiting him in the temple. They should also avoid any physical abstinence from physical pleasures and other family ties and should live like a celibate or ‘ brahamachari’. They should also continuously practice the goodness of life. Apart from the above, the devotees have to bathe in the holy river Pampa, and adorn themselves with three-eyed coconut and ‘aantha’ garland and then should bravely steep climb 18 stairs of Sabarimala temple.
+   
+    THE FAMOUS PILGRIMAGE OF SABARIMALA
+    Sabarimala in Kerala is the most famous Ayyappa shrine and is visited by over 50 million devotees every year. It is one of the most famous pilgrimages in the world. Pilgrims from around the country visit this place to get the blessings of Lord Ayyappa.
+    </string>
+    <string-array name="textf1">
+        <item>Why ayyappa temple was located in kerala.....</item>
+        <item>Why ayyappa temple was located in kerala.....</item>
+        <item>Why ayyappa temple was located in kerala.....</item>
+        <item>Why ayyappa temple was located in kerala.....</item>
+    </string-array>
+
+    <string name="q1">Who is father of ayyappa?</string>
+    <string name="q2">what is near place to  these  temple?</string>
+    <string name="q3">will u follow ayyappa events daily?</string>
+    <string name="q4">what is ur faviorate temple among those ?</string>
+    <string-array name="textf2">
+        <item> why people worship him</item>
+        <item> why people worship him</item>
+        <item> why people worship him</item>
+        <item>why people worship him</item>
+    </string-array>
+
+    <string-array name="comm">
+        <item>CATERING</item>
+        <item>PUJA STORE</item>
+        <item>DECORATION</item>
+        <item>FLOWER SUPPLYERS</item>
+        <item>IRUMUDI SUPPLYERS</item>
+        <item>BAJANAMANDALI</item>
+    </string-array>
+
+    <string-array name="commCategory">
+        <item>catering</item>
+        <item>pujastore</item>
+        <item>decoration</item>
+        <item>flowersupplyers</item>
+        <item>irumudisupplyers</item>
+        <item>bajanamandali</item>
+    </string-array>
+
+    <string-array name="store">
+        <item>ANVESH STORE</item>
+        <item>SAI STORE</item>
+        <item>RAFI STORE</item>
+        <item>SARATH STORE</item>
+        <item>PRAVEEN STORE</item>
+    </string-array>
+
+    <integer-array name="im">
+        <item>@drawable/img</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img1</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img1</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img6</item>
+    </integer-array>
+
+    <string-array name="arr">
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+    </string-array>
+
+
+    <string-array name="pujanames">
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+    </string-array>
+    <string-array name="group_name">
+        <item>Narayana Kanth </item>
+        <item>Manikanta </item>
+        <item>Arun Guru swamy</item>
+        <item>Narayana Kanth </item>
+    </string-array>
+    <string-array name="time_ago">
+        <item>10 mins ago</item>
+        <item>5 mins ago</item>
+        <item>6 mins ago</item>
+        <item>8 mins ago</item>
+        <item>10 mins ago</item>
+        <item>5 mins ago</item>
+        <item>6 mins ago</item>
+        <item>8 mins ago</item>
+    </string-array>
+
+    <string-array name="calender">
+        <item>Add to Calender</item>
+        <item>Add to Calender</item>
+        <item>Add to Calender</item>
+        <item>Add to Calender</item>
+    </string-array>
+
+    <string-array name="starttime">
+        <item>8:00PMto10:00 PM</item>
+        <item>7:30PMto9:30 PM</item>
+        <item>6:00PMto8:30 PM</item>
+        <item>6:30PMto9:30 PM</item>
+    </string-array>
+
+    <string-array name="stoptime">
+        <item>22-11-2017</item>
+        <item>23-11-2017</item>
+        <item>25-11-2017</item>
+        <item>28-11-2017</item>
+    </string-array>
+
+    <string-array name="side_name">
+        <item>Guru Swamy</item>
+        <item>Bajanamandali</item>
+        <item>General </item>
+        <item>Catering</item>
+        <item>Decaration</item>
+        <item>Pujari</item>
+        <item>Flower Supplyers</item>
+        <item>Irumudi Supplyers</item>
+        <item>GuruSwamy </item>
+        <item>GuruSwamy </item>
+        <item>PujaStore</item>
+        <item>GuruSwamy </item>
+    </string-array>
+
+    <string-array name="swami_name">
+        <item>Narayana Kanth \n Guru Swamy</item>
+        <item>Pancha Girisha Bajana Mandali </item>
+        <item>Maikanta </item>
+        <item>Hari Hara Putra Caterers</item>
+        <item>Shabari Girisha \n Padi Decoraters</item>
+        <item>Arun Guru swamy</item>
+        <item>ManiKanta Flower \n  Supplyers</item>
+        <item>Pancha Girisha \n Bajana Mandali </item>
+        <item>Krishna Ayer \n Guru Swamy</item>
+        <item>Mahesh Guru \n Swamy</item>
+        <item>Ayappa Swamy Cateres</item>
+        <item>Satyanarayana \n Guru Swamy</item>
+    </string-array>
+
+
+    <string-array name="cal_swami_name">
+        <item>Narayana Kanth \n Guru Swamy</item>
+        <item>Pancha Girisha Bajana Mandali </item>
+        <item>Maikanta </item>
+        <item>Hari Hara Putra Caterers</item>
+    </string-array>
+
+    <string-array name="cal_pujanames">
+        <item>Ayyappa Swami Maha Padi Puja</item>
+        <item>Ayyapa Swami Padi Puja</item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa Maha Padi  puja</item>
+
+    </string-array>
+
+    <string-array name="cal_starttime">
+        <item>8:00 PM to 10:00 PM</item>
+        <item>7:30PM to 9:30 PM</item>
+        <item>6:00 PM to 8:30 PM</item>
+        <item>6:30 PM to 9:30 PM</item>
+    </string-array>
+
+
+    <string-array name="cal_stoptime">
+        <item>22-11-2017</item>
+        <item>23-11-2017</item>
+        <item>25-11-2017</item>
+        <item>28-11-2017</item>
+    </string-array>
+
+
+    <string-array name="material_sastry">
+        <item>Narayana Kanth </item>
+        <item>Pancha Girisha  </item>
+        <item>Maikanta </item>
+        <item>Hari Hara </item>
+    </string-array>
+
+    <string-array name="material_pujaname">
+        <item>Ayyappa Swami</item>
+        <item>Ayyapa Swami </item>
+        <item>Swami puja</item>
+        <item>Swami Ayyapa </item>
+    </string-array>
+
+    <string-array name="group_category">
+        <item>GuruSwamy</item>
+        <item>BajanaMandali</item>
+        <item>Catering</item>
+        <item>Decoration</item>
+        <item>Pujari </item>
+        <item>Flower Suppliers </item>
+        <item>Irumudi Suppliers </item>
+        <item>Pooja Stores </item>
+        <item>General </item>
+    </string-array>
+
+   </resources>

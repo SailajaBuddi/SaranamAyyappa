@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/ten_dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tVAlphabet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/pink"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".9"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tVUnSelectedContact"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/white_background_circle"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tVSelectedContact"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/green_background_circle"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tVAlreadySelectedContact"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/blue_background_circle"
+                android:gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iVContact"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tVcontactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:text="A" />
+
+            <TextView
+                android:id="@+id/tVcontactNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:text="A"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

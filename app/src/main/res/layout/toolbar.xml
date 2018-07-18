@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:fitsSystemWindows="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_ToolTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Nearby Events"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/twenty_sp"/>
+
+                <ImageView
+                    android:id="@+id/settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/eight_dp"
+                    android:paddingLeft="@dimen/eight_dp"
+                    android:paddingRight="@dimen/fifteen_dp"
+                    android:src="@drawable/settings" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/basicprofile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/settings"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_user"
+                    android:background="@drawable/circle" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/settings"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/circle"
+                    />
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/settings"
+                    android:id="@+id/profiles"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:background="@drawable/textcolored_border"
+                    android:visibility="invisible"/>
+
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:id="@+id/notification_center_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/profile">
+
+                    <ImageView
+                        android:id="@+id/iv_Notification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:src="@drawable/notification" />
+
+                    <TextView
+                        android:id="@+id/tv_NotificationCount"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="top|right"
+                        android:background="@drawable/notification_background"
+                        android:gravity="center_horizontal"
+                        android:text="3"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                </FrameLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+

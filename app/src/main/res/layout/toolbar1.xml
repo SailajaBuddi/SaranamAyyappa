@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar11"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:layout_collapseMode="pin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="center"
+            android:src="@drawable/back"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:id="@+id/ll_tbimg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/back"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/back">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/toolbar1_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/back"
+                android:layout_toRightOf="@+id/back"
+                android:background="@drawable/circle"
+                android:scaleType="centerCrop" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/toolbar1_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ll_tbimg"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:text="Commercials"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/ll_tbimg" />
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/settings"
+            android:tint="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_join"
+            android:visibility="gone"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:background="#0d641d"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="3dp"
+            android:text="JOIN"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/ten_dp" />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

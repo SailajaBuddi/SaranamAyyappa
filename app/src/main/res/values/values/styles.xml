@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="colorPrimary">@color/cfcTextOrangeColor</item>
+        <item name="colorPrimaryDark">@color/trasnperantColor</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="ToolBarWithNavigationBack">
+        <item name="navigationIcon">@drawable/ic_arrow_back_white</item>
+    </style>
+    <style name="SwitchCompatTheme">
+        <item name="colorControlActivated">@color/green</item>
+    </style>
+
+    <style name="SwitchCompatStyle">
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="trackTint">@color/switch_color</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="colorAccent">@color/cfcTextOrangeColor</item>
+    </style>
+
+    <style name="Login">
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+
+    <style name="LoginThemeOrange" parent="Theme.AccountKit">
+        <item name="com_accountkit_button_background_color">@color/loginbutton</item>
+        <item name="com_accountkit_icon_color">@color/american_green</item>
+        <item name="com_accountkit_input_accent_color">@color/loginbutton</item>
+      <!--  <item name="com_accountkit_primary_text_color">@color/appPrimaryTextColor</item>
+        <item name="com_accountkit_secondary_text_color">@color/appsecondryTextColor</item>
+        <item name="com_accountkit_status_bar_color">@color/colorPrimaryDark</item>
+
+        <item name="com_accountkit_input_accent_color">?attr/com_accountkit_primary_color</item>
+        <item name="com_accountkit_input_border_color">@color/editTextBorderColor</item>
+        <item name="com_accountkit_background_color">@color/appPrimaryTextColor</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/loginbutton</item>
+    </style>
+
+</resources>

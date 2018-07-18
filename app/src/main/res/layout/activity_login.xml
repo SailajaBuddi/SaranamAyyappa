@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/ten_dp"
+    android:paddingRight="@dimen/ten_dp"
+    android:background="@drawable/viewdetails">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/deepam10"
+        android:id="@+id/deepam"
+        android:background="@drawable/circle_bckgrnd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deepam"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:id="@+id/title"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_MobileNo"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:layout_centerHorizontal="true"
+        android:text="Continue With Mobile Number"
+        android:layout_below="@+id/title"/>
+
+    <LinearLayout
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/btn_MobileNo"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            android:layout_marginRight="@dimen/ten_dp"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login with"
+            android:textStyle="bold"
+            android:textSize="@dimen/twenty_sp"
+            android:textColor="@color/white"/>-->
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="10dp">
+
+        <FrameLayout
+            android:id="@+id/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp">
+
+          <!--  <com.facebook.login.widget.LoginButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebook"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:layout_marginLeft="30dp"/>-->
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="Login "
+                android:textSize="@dimen/twenty_sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="35dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangular_noborder"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/facebook"
+                android:background="@drawable/circle_nobckgrnd"/>
+
+
+      </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentRight="true"
+            android:id="@+id/googlesignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Login "
+                android:textSize="@dimen/twenty_sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/rectangular_gborder"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_cgoogle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/google"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/circle_nobckgrnd"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/circular_progress_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:indeterminate="false"
+        android:layout_centerInParent="true"
+        android:max="48"
+        android:progress="1"
+
+        android:visibility="invisible"
+
+       />
+
+</RelativeLayout>
